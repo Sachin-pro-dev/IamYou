@@ -1,19 +1,16 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.13;
 
-import {Script, console} from "forge-std/Script.sol";
-import {Counter} from "../src/Counter.sol";
+import "forge-std/Script.sol";
+import "../src/WINToken.sol";
 
-contract CounterScript is Script {
-    Counter public counter;
-
-    function setUp() public {}
-
+contract DeployWINTokenScript is Script {
     function run() public {
         vm.startBroadcast();
-
-        counter = new Counter();
-
+        WINToken token = new WINToken();
         vm.stopBroadcast();
+
+        // Log the deployed address to the console.
+        console.log("WINToken deployed at:", address(token));
     }
 }
