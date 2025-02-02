@@ -2,7 +2,7 @@
 import "./index.css";
 import React, { useEffect, useRef } from "react";
 import { Brain, Shield, Trophy, Rocket, Heart, Wallet2 } from "lucide-react";
-import Spline from "@splinetool/react-spline";
+// import Spline from "@splinetool/react-spline";
 import Link from "next/link";
 function GlowingCard({
   icon: Icon,
@@ -47,7 +47,7 @@ function App() {
   return (
     <div className="min-h-screen bg-black text-white overflow-hidden">
       {/* Spline 3D Background */}
-      <div className="fixed inset-0 w-[100vw] h-full pointer-events-none z-0 flex items-center justify-center">
+      {/* <div className="fixed inset-0 w-[100vw] h-full pointer-events-none z-0 flex items-center justify-center h-[100vh]">
         <Spline
           scene="https://prod.spline.design/D7qfCeVcGvvrhS7b/scene.splinecode"
           className="w-full h-full "
@@ -56,7 +56,7 @@ function App() {
           scene="https://prod.spline.design/D7qfCeVcGvvrhS7b/scene.splinecode"
           className="w-full h-full "
         />
-      </div>
+      </div> */}
 
       {/* Animated Background Overlay */}
       <div ref={parallaxRef} className="fixed inset-0 pointer-events-none z-10">
@@ -71,7 +71,7 @@ function App() {
         <section className="relative min-h-screen flex items-center justify-center px-4">
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-9xl md:text-9xl font-bold mb-6 gradient-text animate-float">
-              IamYou – Your AI Twin onchain
+              IamYou – Your AI Twin on Base
             </h1>
             <p className="text-xl md:text-2xl text-gray-400 mb-8 max-w-3xl mx-auto transform hover:scale-105 transition-transform duration-300">
               A personal AI that learns from you, thinks like you, and helps you
