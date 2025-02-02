@@ -71,7 +71,7 @@ function App() {
         <section className="relative min-h-screen flex items-center justify-center px-4">
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-9xl md:text-9xl font-bold mb-6 gradient-text animate-float">
-              IamYou – Your AI Twin on the Blockchain
+              IamYou – Your AI Twin onchain
             </h1>
             <p className="text-xl md:text-2xl text-gray-400 mb-8 max-w-3xl mx-auto transform hover:scale-105 transition-transform duration-300">
               A personal AI that learns from you, thinks like you, and helps you
@@ -91,17 +91,17 @@ function App() {
         </section>
 
         {/* Vision Section */}
-        <section className="py-20 px-4 bg-gradient-to-b from-black/80 via-blue-900/10 to-black/90 backdrop-blur-sm">
+        <section className="py-20 px-4 bg-gradient-to-b from-black/80 via-blue-900/10 to-black/90 backdrop-blur-sm font-bold ">
           <div className="max-w-4xl mx-auto space-y-8">
             <div className="space-y-6 hover-lift">
-              <p className="text-lg text-gray-300 leading-relaxed text-2xl ">
+              <p className="text-lg text-gray-300 leading-relaxed text-3xl ">
                 In today's world, many struggle with loneliness, self-doubt, and
                 lack of motivation. Whether you're an introvert, dealing with
                 depression, struggling with low self-esteem, or simply lacking
                 friends to talk to, "IamYou" becomes your best companion—one
                 that truly understands you.
               </p>
-              <p className="text-lg text-gray-300 leading-relaxed text-2xl">
+              <p className="text-lg text-gray-300 leading-relaxed text-3xl">
                 Unlike a boring to-do list or Notion, this AI feels alive and
                 pushes you to evolve. It's not just about tracking tasks; it's
                 about becoming the person you dream to be.
@@ -109,7 +109,7 @@ function App() {
             </div>
 
             <div className="p-6 bg-purple-500/10 rounded-lg border border-purple-500/20 hover-lift card-glow backdrop-blur-sm bg-gray-900">
-              <p className="text-lg text-blue-400 leading-relaxed text-2xl ">
+              <p className="text-lg text-blue-400 leading-relaxed text-3xl ">
                 💡 "IamYou" helps you create your ideal alter ego—your
                 strongest, most unstoppable version. You'll see your progress in
                 real time, guided by your AI twin, who constantly challenges and
