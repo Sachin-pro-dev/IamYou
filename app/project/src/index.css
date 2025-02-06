@@ -5,7 +5,7 @@
 @layer base {
   body {
     @apply bg-black;
-    cursor: pointer;
+    cursor: default;
   }
 }
 

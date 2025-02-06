@@ -1,7 +1,6 @@
 import { useWriteContract, useReadContract } from "wagmi"; // Import the correct hook
 import { ethers } from "ethers"; // Import ethers
-import WINTokenABI from "./WINTokenABI.json"; // Import the ABI from your contract
-
+import WINTokenABI from "./WINTokenABI.json"
 const WIN_TOKEN_ADDRESS = "0x4dB39368B312127A8c93d4B7F29E85e69f52B8a8"; // Replace with your deployed contract address
 
 // Mint function using useWriteContract for transaction

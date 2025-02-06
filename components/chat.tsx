@@ -116,7 +116,7 @@ export default function Chat() {
       )}
 
       <ScrollArea className="flex-1 p-4 m-0 rounded-lg bg-secondary/50 mb-4 shadow-lg shadow-cyan-500/50">
-        <div className="space-y-4 border ">
+        <div className="space-y-4 ">
           {messages.map((message, index) => (
             <div
               key={index}
